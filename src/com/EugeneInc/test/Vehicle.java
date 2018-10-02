@@ -26,7 +26,7 @@ abstract class Vehicle {    // абстрактный класс - скелет 
                 "\n");
     }
 
-    public String generateVIN(Random rng, int length)  //генерирует рандомную строку
+    private String generateVIN(Random rng, int length)  //генерирует рандомную строку
     {
         String characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
         char[] text = new char[length];
